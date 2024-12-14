@@ -68,6 +68,8 @@ Each notebook (`main.ipynb`, `simulate_congress.ipynb`, `207.ipynb`, and `550.ip
 
 Each step is unified under an SGD approach and utilizes a unified `nn.module` class from the PyTorch autodifferentiation library, defined in `utils.py` and `congress_utils.py`.
 
+**Note:** The current implementation is specifically designed for a 2-party system.
+
 ## Reporting Bugs
 
 To report bugs encountered while running the code, please contact Hancong Pan at hcpan@bu.edu.
